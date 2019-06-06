@@ -2,7 +2,7 @@
 
 # Run the graphframes code
 
-graphfile="/u/home/sanrober/comp4333/programs/program_3/connect.csv"
+graphfile="/connect.csv"
 
 spark-submit \
     --master "local[*]" \
