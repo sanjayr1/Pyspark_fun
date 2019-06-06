@@ -3,14 +3,14 @@
 #Sanjay Roberts
 # Run p2.py using Spark locally (on a single machine)
 
-#INPUT_FILE_FUND="/u/home/dsteven/Public/Data/Prog2Short/fundamentals-short.csv"
-#INPUT_FILE_PRICE="/u/home/dsteven/Public/Data/Prog2Short/prices-short.csv"
+#INPUT_FILE_FUND="/fundamentals-short.csv"
+#INPUT_FILE_PRICE="/prices-short.csv"
 
-INPUT_FILE_FUND="/u/home/dsteven/Public/Data/Prog2Fundamentals/"
-INPUT_FILE_PRICE="/u/home/dsteven/Public/Data/Prog2Prices/"
+INPUT_FILE_FUND="/Prog2Fundamentals/"
+INPUT_FILE_PRICE="/Prog2Prices/"
 
 
-OUTPUT_DIR="/u/home/sanrober/comp4333/programs/program_2/stocks"
+OUTPUT_DIR="/u/home/stocks"
 
 # Delete any old copies output directory on linux filesystem
 rm -rf "$OUTPUT_DIR"
