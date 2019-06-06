@@ -8,9 +8,9 @@
 # Paths must be absolute paths.
 # $PWD is bash shell variable for the current directory
 CELL_SIZE=1
-INPUT_FILE="hdfs:///Public/Data/Lab3Short"
-#INPUT_FILE="hdfs:///Public/Data/Lab3Full"
-OUTPUT_DIR="/u/home/sanrober/comp4333/programs/program_1/grid_points"
+INPUT_FILE="hdfs:///Lab3Short"
+#INPUT_FILE="hdfs:///Lab3Full"
+OUTPUT_DIR="/u/home/grid_points"
 MAX_DIST=0.95
 
 
