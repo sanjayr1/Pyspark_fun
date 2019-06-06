@@ -4,13 +4,13 @@
 
 # Run p2.py using Spark on Yarn (on the cluster)
 
-#INPUT_FILE_FUND="hdfs:///Public/Data/Prog2Short/fundamentals-short.csv"
-#INPUT_FILE_PRICE="hdfs:///Public/Data/Prog2Short/prices-short.csv"
+#INPUT_FILE_FUND="hdfs:///fundamentals-short.csv"
+#INPUT_FILE_PRICE="hdfs:///prices-short.csv"
 
-INPUT_FILE_FUND="hdfs:///Public/Data/Prog2Fundamentals/"
-INPUT_FILE_PRICE="hdfs:///Public/Data/Prog2Prices/"
+INPUT_FILE_FUND="hdfs:///Prog2Fundamentals/"
+INPUT_FILE_PRICE="hdfs:///Prog2Prices/"
 
-OUTPUT_DIR="/u/home/sanrober/comp4333/programs/program_2/stocks"
+OUTPUT_DIR="/u/home/stocks"
 
 # Create HDFS directory path same as current directory
 hadoop fs -mkdir -p "hdfs://$PWD"
