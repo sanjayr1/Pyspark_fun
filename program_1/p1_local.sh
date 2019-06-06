@@ -8,9 +8,9 @@
 # Set cell size, and names of files for input and output.
 # Paths must be absolute paths.
 CELL_SIZE=1
-INPUT_FILE="/u/home/dsteven/Public/Data/Lab3Short"
-#INPUT_FILE="/u/home/dsteven/Public/Data/Lab3Full"
-OUTPUT_DIR="/u/home/sanrober/comp4333/programs/program_1/grid_points"
+INPUT_FILE="/Lab3Short"
+#INPUT_FILE="/Lab3Full"
+OUTPUT_DIR="/u/home/grid_points"
 MAX_DIST=0.95
 
 # Delete any old copies output directory on linux filesystem
