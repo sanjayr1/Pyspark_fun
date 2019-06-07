@@ -16,5 +16,5 @@
 - Count the total number of stock price records read, and the total number of fundamentals records read
 
 # Program 3
-- Implement a Pregel GraphFrames algorithm to calculate the single-source shortest path from one of the nodes in a graph to every other node
+- Implement a Pregel GraphFrames algorithm to calculate the single-source shortest path from one of the nodes in a graph to every other node
 - Implement a Pregel GraphFrames algorithm to calculate the connected components of a given graph
